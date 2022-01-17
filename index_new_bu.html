@@ -9,12 +9,13 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="static/css/style.css">
   </head>
   <body>
     <div class="container">
       <!-- Add Jumbotron to Header -->
-      <div class="jumbotron text-center">
-        <h1>Mission to Mars</h1>
+      <div class="jumbotron jumbotron-fluid">
+        <h1 class="display-4">Mission to Mars</h1>
         <!-- Add a button to activate scraping script -->
         <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
       </div>
@@ -49,5 +50,21 @@
         </div>
       </div>
     </div>
+    <!-- Mars Hemispheres -->
+    <div class="container-fluid" style="background-color: #99c2ae;">
+      <div class="row">
+        <h1 class="text-center">Hemispheres of Mars</h1>
+        <br>
+      {% for dict in mars.hemisphere_image %}
+          <div class="col-xs-3 text-center">
+            <div class="card text-center">
+              <img class="img-fluid img-thumbnail" id="scale_id" src="{{ dict.img_url }}">
+                <div class="card-body text-center">
+                  <h4 class="card-title text-left">{{ dict.title }}</h4>
+                </div>
+            </div>
+          </div>
+      {% endfor %}
+      </div>
   </body>
 </html>

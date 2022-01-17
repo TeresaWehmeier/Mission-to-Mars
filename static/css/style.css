@@ -1,0 +1,9 @@
+body {
+    background-color: #99c2ae;
+}
+
+.jumbotron {
+    background-image: url("../images/solar_system.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+}
