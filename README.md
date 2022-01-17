@@ -11,7 +11,7 @@
 - Full-resolution images of the hemispheres are added to dictionary
 - Title for hemisphere images are added to dictionary
 - List contains dictionary of full-resolution image URL string and title for each hemisphere image
-- 
+
 ### Files D1
 <a href="Mission_to_Mars_Challenge.ipynb">Jupiter File with Deliverable 1</a>
 
