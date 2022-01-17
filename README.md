@@ -24,9 +24,9 @@
 
 ### Files D2
 - <a href="https://github.com/TeresaWehmeier/Mission-to-Mars/blob/6a9a82ec32c7a83a2ad816f1a265832c97baa695/Scraping.py">Scraping.py file</a>
-- <a href="images_github/mongodb_hemisphere_array.png">MongoDB Hemisphere Array</a>
 - <a href="templates/index.html">Index file</a>
-- <a href="images_github/mission_to_mars_webpage_smaller.png" width="50%" height="40%"></a>
+- <img src = "images_github/mongodb_hemisphere_array.png" width="30%" height="20%">
+- <img src = "images_github/mission_to_mars_webpage_smaller.png" width="50%" height="40%">
 
 ## Deliverable 3: Requirements and links to deliverable three.
 ### Requirements - D3
@@ -35,7 +35,8 @@
 -   Striped the mars fact table
 -   Used cards for hemisphere images
 
-### Files D2
+### Files D3
 - <a href="templates/index.html">Index file</a>
+- - <img src = "images_github/mission_to_mars_webpage_smaller.png" width="50%" height="40%">
 
 
